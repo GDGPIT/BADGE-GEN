@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.google.com/specimen/Arima');
 
 body {
-    font-family: 'Caveat', sans-serif;
+    font-family: 'Arima', 'sans-serif';
     background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyMDg3NzN8MHwxfGFsbHwxfHx8fHx8fHwxNjEyNzY5NTIw&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center fixed;
     background-size: cover;  /* Makes the background cover the entire area */
     color: rgb(255, 0, 0);  /* Ensures the text color is white for better contrast */

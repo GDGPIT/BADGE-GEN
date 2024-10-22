@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyMDg3NzN8MHwxfGFsbHwxfHx8fHx8fHwxNjEyNzY5NTIw&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center fixed;
+    background-size: cover;  /* Makes the background cover the entire area */
+    color: white;  /* Ensures the text color is white for better contrast */
+}
+
+#card-wrapper {
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#card {
+    padding: 0px;
+    max-width: 400px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white for the card */
+}
+
+#gdsc-branding {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+#photo {
+    background: linear-gradient(rgb(228, 228, 228), rgb(170, 170, 170));
+    width: 100%;
+    border-radius: 10px 10px 0px 0px;
+}
+
+#wrapper {
+    padding-top: 40px;
+}
+
+p {
+    color: #000; /* Dark color for better readability on the light card */
+    font-size: larger;
+}
+
+#gdsc-logo {
+    width: 100%;
+    margin: 0px;
+}
+
+#gdsc-logo-top {
+    width: 45%;
+    margin-top: 2px;
+    margin-left: 10px;
+}
+
+#gdsc-logo-footer {
+    width: 45%;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+input {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent input background */
+    border: 1px solid #ccc;
+    color: #333; /* Dark color for input text */
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}

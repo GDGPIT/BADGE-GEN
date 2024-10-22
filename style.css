@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Caveat', sans-serif;
     background: url('https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MXwyMDg3NzN8MHwxfGFsbHwxfHx8fHx8fHwxNjEyNzY5NTIw&ixlib=rb-1.2.1&q=80&w=1080') no-repeat center center fixed;
     background-size: cover;  /* Makes the background cover the entire area */
-    color: white;  /* Ensures the text color is white for better contrast */
+    color: rgb(255, 0, 0);  /* Ensures the text color is white for better contrast */
 }
 
 #card-wrapper {
@@ -75,4 +75,51 @@ input {
 .btn-primary:hover {
     background-color: #0056b3;
     border-color: #0056b3;
+}
+
+/* Footer section update */
+footer ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+footer ul li {
+    padding-bottom: 5px;
+}
+
+#footer-social-icons {
+    display: flex;
+    justify-content: center; /* Centers the icons horizontally */
+    align-items: center;
+    margin-top: 10px; /* Adds some spacing */
+}
+
+#footer-social-icons a {
+    color: white;  /* Ensures the icons are white */
+    font-size: 24px; /* Adjusts the icon size */
+    margin: 0 15px; /* Adds space between the icons */
+    transition: color 0.3s ease;
+}
+
+#footer-social-icons a:hover {
+    color: #007bff; /* Changes color on hover */
+}
+
+/* Adjust the "CONNECT WITH US" heading */
+h5.text-uppercase {
+    color: white;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+/* Center the 'Made with ❤️' footer */
+.footer-content {
+    text-align: center;
+    padding: 10px;
+    font-size: 1em;
+    color: white;
+}
+
+.footer-content .heart {
+    color: red;
 }
